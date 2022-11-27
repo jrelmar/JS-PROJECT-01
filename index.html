@@ -19,9 +19,9 @@
 <body class="text-center">
 
   <main class="form-signin w-100 m-auto">
-    <img src="assets/newsletter-logo.jpg" alt="picture" width="72" height="57">
 
     <form id="subscription-form" method="post">
+      <img src="assets/newsletter-logo.jpg" alt="picture" width="200" height="170">
       <h1 class="h3 mb-3 fw-normal">Please subscribe</h1>
       <div class="form-floating">
         <input type="text" class="form-control" id="1 par" placeholder="First Name" name="firstName">
@@ -57,6 +57,7 @@
     </form>
 
     <div id="result-container" class="invisible">
+      <img src="assets/successfulLOgIn.jpg" alt="picture" width="250" height="200">
       <div class="container-fluid">
         <h2>Successfully signed up</h2>
         <div class="row result-element">
@@ -78,6 +79,10 @@
         <div class="row result-element">
           <div class="col-sm">Email</div>
           <div class="col-sm" id="email"></div>
+        </div>
+        <div class="row result-element">
+          <div class="col-sm">Created at</div>
+          <div class="col-sm" id="creationTime"></div>
         </div>
       </div>
     </div>
